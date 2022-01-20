@@ -1,16 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="hide-scroll">
+
 <head>
   <meta charset="UTF-8">
+  <link rel="icon" href="./img/favicon.svg">
   <link rel="stylesheet" href="./css/style.css">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
   <title>MrLilin's Website</title>
 </head>
+
 <body>
-  
-  <h1>My Website</h1>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="container flex">
+      <h1>MrLilin</h1>
+      <nav>
+        <ul>
+          <li><a href="#">About me</a></li>
+          <li><a href="#">Projetcs</a></li>
+          <li><a href="#">Contact me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Vetrina -->
+  <section class="showcase">
+    <div class="container grid">
+      <div class="showcase-text">
+        <h1>Lorem ipsum</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eos non nostrum culpa illo facilis
+          laudantium aperiam a amet voluptatibus laborum totam, beatae minima doloribus velit dolore iure quibusdam id!
+        </p>
+        <a href="https://github.com/MrLilin" class="btn btn-outline">My GitHub</a>
+      </div>
+
+      <div class="showcase-gallery card">
+        <div class="showcase-text">
+          <h2>my Photos</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio reprehenderit nostrum debitis tempora
+            similique rem inventore dignissimos eos, error aliquid enim voluptatibus ratione? Earum minima amet
+            consequatur! Ipsam harum dolorem modi eius dolores similique veniam adipisci, aut odit quis sapiente!</p>
+        </div>
+        <div class="gallery hide-scroll">
+          <figure><img src="https://picsum.photos/1000?random=1" width="1000" height="1000" /></figure>
+          <figure><img src="https://picsum.photos/1000?random=2" width="1000" height="1000" /></figure>
+          <figure><img src="https://picsum.photos/1000?random=3" width="1000" height="1000" /></figure>
+          <figure><img src="https://picsum.photos/1000?random=4" width="1000" height="1000" /></figure>
+          <figure><img src="https://picsum.photos/1000?random=5" width="1000" height="1000" /></figure>
+          <figure><img src="https://picsum.photos/1000?random=6" width="1000" height="1000" /></figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
   <script src="./js/index.js"></script>
 </body>
+
 </html>
